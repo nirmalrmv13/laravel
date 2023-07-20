@@ -1,0 +1,115 @@
+Open cmd in folder path
+git add .
+git commit -m "files changed"
+git pull
+git push
+__________________________
+How to upload our code in github (please used in gitbash software tool)
+git init
+git add .
+git commit -m "test"
+
+   ->else cannot commit do this
+   git config --global user.email "vigneshwaran@hemas.in"
+   git config --global user.name "vigneshwaran"
+
+git commit -m "test"
+git branch -M main
+git remote add origin https://github.com/vigneshwaranhemas/Test-project.git
+git push -u origin main (file push to live)
+------------------------
+How to get github project from website to store in localhost
+git clone -b main https://github.com/DIVYA0904/ck_prt_mng.git
+
+ls (list out the folder on inside the project folder)
+
+cd ck_prt_mng (syntax: cd project name ) (open the folder path like cd.....)
+
+git add .
+(inbetween change the code)
+
+git status (list out the modified files)
+
+git add .
+
+git status
+
+git push
+------------------------
+How to merge the 2 files, that means push and pull
+git add .
+git commit -m "Code test"
+git pull
+git push
+----------push-----
+git add .
+git commit -m "test"
+git push
+----------pull-----
+git add .
+git commit -m "test"
+git pull
+---------------------------------
+--Finally branch created---
+another method to create branch
+_________________________________
+How to create SSH and GPG keys
+click New SSH key
+enter name (eg. vignesh_pc)
+
+open git in local folder and enter below code to run
+ssh-keygen.exe
+then, files created in this path C:\Users\HEPL\.ssh
+
+open this file (id_rsa.pub) and copy the full code and paste in git page on key text box 
+--------------
+- git branch
+
+result:
+develop
+main
+
+choosed in develop and then,
+
+git push --set-upstream origin develop
+____________________________________
+- git branch
+list out of branch showed
+
+-code . (This code open the project folder in localhost)
+_______________________________
+Add exisiting repository
+git remote add origin https://github.com/vigneshwaranhemas/HRMS_poco.git
+git branch -M main
+git push -u origin main
+
+_________________________Create new branch and push the code(Worked)________________________
+How to create new branch
+Syntax: git branch branch name
+Eg: git branch vignesh
+
+git branch (list out the branch names)
+
+How to switched the branch
+git branch -M vignesh
+
+push the code to development branch
+git push -u origin vignesh
+
+And check code is updated or not
+git pull
+git push
+____________________________
+How to push without pull?
+git push -f origin main
+____________________________
+
+
+
+
+
+
+
+
+
+
